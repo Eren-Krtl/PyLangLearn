@@ -1,6 +1,11 @@
 .StartLessonButton {
 	width: 100px;
 	height: 100px;
-	font-size: 12px;
-	font-weight: 600px;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: 1000;
+	color: #FFFFFF;
+	background-color: #404040;
+	border: black solid 5px;
+	box-shadow: black solid 10px;
 }

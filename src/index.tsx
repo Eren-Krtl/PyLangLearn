@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import MainMenu from './main.tsx'
+import WebLinker from './router.tsx'
 
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
-		<MainMenu />
+		<WebLinker />
 	</StrictMode>,
 )

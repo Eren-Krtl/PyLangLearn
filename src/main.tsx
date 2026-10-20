@@ -1,12 +1,19 @@
-import './main.css'
+import './main.css';
+import TopBar from './topbar';
 
-export function MainMenu() {
+import {
+	Link
+} from 'react-router-dom';
+
+
+export default function MainMenu() {
 	return (
 		<div>
-			<h1>Hello world</h1>
-			<button className="StartLessonButton">Python Basics</button>
+			<TopBar />
+			<h1>Hello from main tsx</h1>
+			<Link to="/lessons/BasicSyntax">
+				<button className="StartLessonButton">Pythons Syntax</button>
+			</Link>
 		</div>
 	)
 }
-
-export default MainMenu
