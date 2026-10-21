@@ -1,14 +1,24 @@
 #TopBarDiv{
-	display: grid;
+	display: inline-grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	text-align: center;
 	background-color: #808080;
 	border-radius: 3px;
+	width: 100%;
 	border: #000000 solid 3px;
+	margin-bottom: 20px;
+}
+#BarImage{
+	text-align: left;
+	margin-left: 10px;
 }
 #BarTitle{
 	color: #000000;
+	background-color: #FFFFFF;
+	text-align: center;
 }
 #BarDescription{
 	color: #00FF00;
+	background-color: #FF00FF;
+	text-align: right;
+	margin-right: 20px;
 }

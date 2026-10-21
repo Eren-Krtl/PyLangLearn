@@ -7,8 +7,9 @@ import {
 function TopBar(){
 	return(
 		<div id="TopBarDiv">
-			<Link to="/">
-				<img src="/public/icons.svg" width={32} height={32} />
+			<Link to="/" id="BarImage">
+				<img src="/public/logo.png" width={32} height={32} />
+				<span>Home Page</span>
 			</Link>
 			<span id="BarTitle">PyLangLearn</span>
 			<span id="BarDescription">Learn Python easily</span>
