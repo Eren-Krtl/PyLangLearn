@@ -17,8 +17,11 @@ const BasicSyntax = () => {
 					In the right you will see a code area <br />
 					With the information you previously got and the information you will learn from lessons you will code a program that checks for a specific output <br />
 					To contiune lets learn how to print in Python <br />
-					Writing print("") in the right and adding a word like Hello in the pharantesis like - print("Hello") - will output - Hello - in the bottom part <br />
+					Writing <mark>print("")</mark> in the right and adding a word like Hello in the pharantesis like <mark>print("Hello")</mark> will output  <mark>Hello</mark> in the bottom part <br />
+					To submit you have to do the task at the end of the paragraph
+					After the code is submitted, we check if the program works. If it fits the task and the program works you can advance into the next lesson.
 					</p>
+					<h2>Print out <mark>Hello world!</mark></h2>
 				</div>
 				<CodeDiv />
 			</div>

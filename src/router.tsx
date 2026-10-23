@@ -1,5 +1,6 @@
 import MainMenu from './main'
 import BasicSyntax from './lessons/BasicSyntax'
+import HowToMakeVariables from './lessons/HowToMakeVariables'
 
 import {
 	BrowserRouter as Router,
@@ -14,6 +15,7 @@ function WebLinker() {
 				<Routes>
 					<Route path="/" element={<MainMenu />} />
 					<Route path="/lessons/BasicSyntax" element={<BasicSyntax />} />
+					<Route path="/lessons/HowToMakeVariables" element={<HowToMakeVariables />} />
 				</Routes>
 			</Router>
 		</div>
